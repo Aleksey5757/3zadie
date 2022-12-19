@@ -1,0 +1,25 @@
+{
+	
+	"3zadanie": {
+	 	"scope": "html",
+		"prefix": "fvoda",
+	 	"body": [
+			<div class="register-form-container">
+			<h1 class="form-title">Форма входа!</h1>
+			<form action="#" class="form" method="get">
+			  <input type="email" name="Логин" placeholder="Логин" required />
+			  <input
+				type="password"
+				name="Пароль"
+				placeholder="Пароль"
+				required
+				pattern="[A-Za-z0-9]{6,20}"
+				title="Логин не может быть короче 6 и не более 20 латинский символов"
+			  >
+			  <button type="submit">Вход</button>
+			</form>
+		  </div>
+	 	],
+	 	"description": "Log output to console"
+	 }
+}
